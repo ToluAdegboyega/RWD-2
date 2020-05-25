@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+ background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position-x: cover;
+  background-position-y: cover;
+  background-size: cover, cover;
+  background-attachment: fixed;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(27, 27, 50, 0.8);
+  margin: auto;
+  padding: 50px;
+  list-style-type: disc;
+  width: 500px;
+}
+
+.form-group {
+  color: white;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  display: block;
+  line-height: 23px;
+  margin-bottom:20px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right:4px;
+padding-top: 4px;
+}
+
+.form-control {
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(136, 191, 251);
+  font-size: 16px;
+  padding-bottom:6px;
+padding-left:12px;
+padding-right:12px;
+padding-top:6px;
+}
+
+.submit-button {
+  background-color: rgb(55, 175, 101);
+  border: solid;
+  border-radius: 5px;
+  border-color: rgb(136, 191, 251);
+  font-size: 16px;
+  padding-bottom:6px;
+padding-left:12px;
+padding-right:12px;
+padding-top:6px;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+ 
+  
+  
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#title {
+  font-family: Poppins, sans-serif;
+  color: white;
+}
+
+#description {
+  font-style: italic;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
